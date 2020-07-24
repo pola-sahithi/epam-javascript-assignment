@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="registration.css">
+        <script src="registration.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="bodyclass">
+        <div class="heading">
+            <div class ="bar"><img src="epam logo.jpg" width="30%" height="30%">
+                <h2> Register Here </h2>
+                 <button class="cross btn ">&#9932;</button>
+             </div>
+        </div>
+        <br>
+        <div class="regisform">
+            <form action="login.html"method="post" name="formn" id="form" >
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required></input>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required></input>
+                <br>
+                <input type="text" name="email" id="mail" placeholder="E-mail" required>
+                <br>
+                <input type="password" name="pass" id="pass" placeholder="Password" required>
+                <br>
+                <input type="password" name="confirmpass" id="confirmpass" placeholder="Confirm Password" required>
+                <br>
+                <button class="submitform" type="button" value="Submit" onclick="validateForm()"> Register Now</button>
+                <button class="cancelbtn" type="button" value="Cancel">Cancel</button>
+            </form>
+        </div>
+        <div class="hl">
+            <span class="hl-innertext">or</span>
+        </div>
+        <div class="Social">
+            <button type="submit" class="facebook-btn">
+                <i class="fa fa-facebook fa-fw" aria-hidden="true"></i>Sign up with facebook
+            </button>
+            <button type="submit" class="google-btn">
+                <i class="fa fa-google fa-fw" aria-hidden="true"></i>Sign up with Google
+            </button>
+
+        </div>
+    </body>
+</html>
